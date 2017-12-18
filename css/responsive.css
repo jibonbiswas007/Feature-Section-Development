@@ -1,0 +1,85 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    
+}
+    
+
+/* tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.single-feature-info .feature-no {
+  font-size: 30px;
+  left: 10px;
+  top: -10px;
+}
+.single-feature-info .feature-no::before {
+  height: 60px;
+  right: 9px;
+  top: 10px;
+}
+.single-feature-info {
+  font-size: 14px;
+  padding: 10px 10px 10px 60px;
+}
+.single-feature-info h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+}
+
+    
+    
+/* Small Mobile :320px. */
+
+@media (max-width: 767px) {
+.section-padding {
+  padding: 30px 0;
+}
+.single-feture-item .feature-bg {
+  left: auto;
+  top: 50px;
+  transform: translateX(0%);
+  width: 100%;
+}
+.single-feture-item .feature-bg {
+  height: 107%;
+  left: -10px;
+  top: -8px;
+  transform: translateX(0%);
+  width: 107%;
+}
+.single-feature-info {
+  padding: 10px 40px;
+}
+.single-feature-info .feature-no {
+  font-size: 25px;
+  left: 5px;
+}
+.single-feature-info .feature-no::before {
+  height: 50px;
+  right: 7px;
+  top: 7px;
+}
+.single-feature-info {
+  font-size: 14px;
+  padding: 20px 20px 10px 50px;
+}
+.single-feature-info h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+}
+    
+    
+    
+/* Large Mobile :480px. */
+@media (min-width: 480px) and (max-width: 767px) {
+
+
+}

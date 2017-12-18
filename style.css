@@ -1,0 +1,147 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+    
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Lato', sans-serif;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.feature-1 .feature-bg {background: url(img/1.jpg)}
+.feature-2 .feature-bg {background: url(img/2.jpg)}
+.feature-3 .feature-bg {background: url(img/3.jpg)}
+.feature-4 .feature-bg {background: url(img/4.jpeg)}
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.single-feture-item {
+  position: relative;
+}
+.single-feture-item .feature-bg {
+  background-color: #ddd;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 50%;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.single-feature-info {
+  background-color: #fff;
+  border-bottom: 5px solid #fe5e3a;
+  box-shadow: 0 0 10px #777;
+  color: #595959;
+  font-size: 15px;
+  line-height: 1.8;
+  padding: 55px 40px 50px 120px;
+  position: relative;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.single-feature-info .feature-no {
+  font-size: 50px;
+  font-weight: 600;
+  left: 40px;
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.single-feature-info .feature-no:before {
+  background: #333 none repeat scroll 0 0;
+  content: "";
+  height: 100px;
+  position: absolute;
+  right: 15px;
+  top: 16px;
+  -webkit-transform: rotate(34deg);
+          transform: rotate(34deg);
+  width: 1px;
+}
+.single-feature-info h2 {
+  color: #000;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.single-feature-info p {
+  margin: 0;
+}
+.feature-2 .single-feature-info {
+  border-color: #29C993;
+}
+.feature-3 .single-feature-info {
+  border-color: #B07AF2;
+}
+.feature-4 .single-feature-info {
+  border-color: #FDBA59;
+}
